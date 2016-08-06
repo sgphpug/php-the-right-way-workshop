@@ -2,7 +2,7 @@
 include("db_config.php");
 ?>
 <html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>Search Products - SQL Injection humla [12th October 2013]</title>
+    <title>Search Products </title>
 
     <link href="./css/htmlstyles.css" rel="stylesheet">
 	</head>
