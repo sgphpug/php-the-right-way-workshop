@@ -1,0 +1,12 @@
+version: '2'
+services:
+  memcache:
+    image: memcached
+  web:
+    build: .
+    depends_on:
+      - memcache
+    volumes:
+      - ./src:/var/www/html/
+    ports:
+      - "8000:80"
